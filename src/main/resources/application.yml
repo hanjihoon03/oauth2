@@ -63,8 +63,8 @@ jwt:
   secret_key: 0852712ba4290435a5c95068466f7cfb579762fe49b6879bb364055ba9ba90cb
 logging:
   level:
-    root: DEBUG
-    org.springframework: DEBUG
+    root: INFO
+    org.springframework: INFO
     spring.jpa.open-in-view: false
     org.hibernate.SQL: info #debug
     org.hibernate.type.descriptor.sql: info #trace
